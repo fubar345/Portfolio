@@ -1,1 +1,3 @@
 Created file structure and new repo.
+
+Created new html and css files and folder.
