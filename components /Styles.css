@@ -13,6 +13,7 @@ body{
 	font-family: Arial, sans-serif;
 	font-size: 1 em;
 	padding: 20px;
+	background-color: yellow;
 }
 
 
@@ -80,10 +81,4 @@ a:active{
 	margin: 30px;
 	overflow: hidden;
 	
-img.Image1{
-	width: 200px;
-	}
-img.Image2{
-	width: 200px;
-}
-
+	
