@@ -3,14 +3,74 @@
  margin: 0 auto;
  padding: 40px; 
  overflow: hidden;
+
+
 }
 
 body{
-	background: black;
-	color: #FFF;
+	color: black;
 	font-family: Arial, sans-serif;
 	font-size: 1 em;
 	padding: 20px;
-	background-repeat: repeat-x;	
+}
 
+#Footer p {
+	font-style: italic;
+}
+h1 {
+	font-family: Arial, serif;
+	padding: 20px;
+	color: black;
+	margin: 10px;
+	border-radius: 20px;
+	font-weight: normal;
+	text-align: left;
+	overflow: hidden;
+
+	}
+	h2{
+	font-family: Arial,serif;
+	width: 40%;
+	padding: 10px;
+	color: #black;
+	margin: 5px;
+	border-radius: 10px;
+	font-weight: normal;
+	overflow: hidden;
+	}
+	h3{
+	font-family: Arial, sans-serif;
+	width: 30%;
+	padding: 10px;
+	color: #black;
+	margin: 5px;
+	border-radius: 10px;
+	font-weight: normal;
+	overflow: hidden;
+	}
+nav li{
+	list-style-type: none;
+	display: inline-block;
+
+	
+
+}
+
+a:link{
+	color: blue;
+	
+}
+
+a:visited{
+	color: #ff0000;
+
+}
+
+a:hover{
+	color: #cc00ff;
+	font-style: italic;
+}
+
+a:active{
+	color: #0066FF;
 }
