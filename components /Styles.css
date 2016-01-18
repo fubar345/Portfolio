@@ -3,6 +3,7 @@
  margin: 0 auto;
  padding: 40px; 
  overflow: hidden;
+ float: left;
 
 
 }
@@ -14,9 +15,7 @@ body{
 	padding: 20px;
 }
 
-#Footer p {
-	font-style: italic;
-}
+
 h1 {
 	font-family: Arial, serif;
 	padding: 20px;
@@ -50,7 +49,7 @@ h1 {
 	}
 nav li{
 	list-style-type: none;
-	display: inline-block;
+	display: block;
 
 	
 
@@ -74,3 +73,17 @@ a:hover{
 a:active{
 	color: #0066FF;
 }
+#Footer{
+	width: 20%;
+	float: top-right;
+	padding: 30px;
+	margin: 30px;
+	overflow: hidden;
+	
+img.Image1{
+	width: 200px;
+	}
+img.Image2{
+	width: 200px;
+}
+
