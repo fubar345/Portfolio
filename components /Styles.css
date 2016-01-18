@@ -1,0 +1,16 @@
+#Main{
+ width: 70%;
+ margin: 0 auto;
+ padding: 40px; 
+ overflow: hidden;
+}
+
+body{
+	background-image: url("../components/pike.jpg")
+	color: #FFF;
+	font-family: Arial, sans-serif;
+	font-size: 1 em;
+	padding: 20px;
+	background-repeat: repeat-x;	
+
+}
