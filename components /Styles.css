@@ -1,27 +1,38 @@
 #Main{
  width: 70%;
- margin: 0 auto;
- padding: 40px; 
- overflow: hidden;
- float: left;
-
+ margin: 0 auto; 
+ position: relative;
+ z-index: 10;
+ color: #fff;
 
 }
-
+body, html, #overlay{
+	padding: 0;
+	margin: 0;
+}
 body{
 	color: black;
 	font-family: Arial, sans-serif;
 	font-size: 1 em;
-	padding: 20px;
-	background-color: yellow;
+	background: url("./Project\ 2\ images/pike.jpg") no-repeat;
+	background-size: cover;
+}
+#overlay{
+ position: fixed;
+ display: block;
+ z-index: -10;
+ height: 100%;
+ width: 100%;
+ background: rgba(0,0,0,.6);
 }
 
 
 h1 {
 	font-family: Arial, serif;
-	padding: 20px;
-	color: black;
-	margin: 10px;
+	padding: 20px 0px;
+	color: #fff;
+	font-weight: 800;
+	margin: 0px;
 	border-radius: 20px;
 	font-weight: normal;
 	text-align: left;
@@ -31,12 +42,11 @@ h1 {
 	h2{
 	font-family: Arial,serif;
 	width: 40%;
-	padding: 10px;
 	color: #black;
-	margin: 5px;
 	border-radius: 10px;
 	font-weight: normal;
 	overflow: hidden;
+	clear: both;
 	}
 	h3{
 	font-family: Arial, sans-serif;
@@ -51,19 +61,14 @@ h1 {
 nav li{
 	list-style-type: none;
 	display: block;
-
-	
-
 }
 
 a:link{
-	color: blue;
-	
+	color: blue;	
 }
 
 a:visited{
 	color: #ff0000;
-
 }
 
 a:hover{
@@ -74,11 +79,15 @@ a:hover{
 a:active{
 	color: #0066FF;
 }
-#Footer{
-	width: 20%;
-	float: top-right;
-	padding: 30px;
-	margin: 30px;
-	overflow: hidden;
 	
+img.Image2{
+ width: 200px;
+ height: auto;
+ display: inline-block;
+ padding:20px;
+ float: right;
+}
+ p{
+ 	text-align: justify;
+ }
 	
