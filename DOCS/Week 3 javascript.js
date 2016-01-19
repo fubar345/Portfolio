@@ -26,3 +26,4 @@ console.log( myCountry.substring(0,3));
 var myAge = 45;
 
 console.log(myAge);
+//Wednesday's work
