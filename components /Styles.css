@@ -6,6 +6,19 @@
  color: #fff;
 
 }
+.fish{
+	position: absolute;
+	right: -30%;
+	top: 50px;
+	height: 40px;
+	width: auto;
+	z-index: 9000;
+}
+.fish:nth-child(2){
+	top: 200px;
+	right: -30%;
+}
+
 body, html, #overlay{
 	padding: 0;
 	margin: 0;
