@@ -81,7 +81,7 @@ a:active{
 }
 	
 img.Image2{
- width: 200px;
+ width: 250px;
  height: auto;
  display: inline-block;
  padding:20px;
@@ -90,4 +90,7 @@ img.Image2{
  p{
  	text-align: justify;
  }
-	
+#Footer p{
+	color:#fff;
+	text-align: center;
+	}
