@@ -17,7 +17,7 @@ function gofish(){
 			$(this).css({transform: 'scaleX(-1)'});
 			
 			var height = $(this).height();
-			height = (height > 160)? 160: height + 20;
+			height = (height > 100)? 100: height + 20;
 			$(this).height(height);
 			$(this).animate({right:'0'}, 4000, function(){
 				$('.fish').css({transform: 'scaleX(1)'});

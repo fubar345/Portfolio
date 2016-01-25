@@ -89,7 +89,13 @@ a:hover{
 a:active{
 	color: #0066FF;
 }
-	
+img.Image1{
+width: 250px;
+ height: auto;
+ display: inline-block;
+ padding:20px;
+ float: left;
+}	
 img.Image2{
  width: 250px;
  height: auto;
