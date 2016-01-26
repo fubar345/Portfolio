@@ -5,3 +5,7 @@ Created new html and css files and folder.
 1/24/2016
 added basic javascript and updated html.
 added weekly javascript to file in doc, forgot to make daily commits.
+
+1/26/2016
+Continued to learn JavaScript.
+Made mutilple small changes to css and html.
