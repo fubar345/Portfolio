@@ -9,3 +9,8 @@ added weekly javascript to file in doc, forgot to make daily commits.
 1/26/2016
 Continued to learn JavaScript.
 Made mutilple small changes to css and html.
+
+1/28/2016
+Continued to learn JavaScript.
+Wrote Anchor points for week 4.
+Collected some links that I used over the course of the month.
