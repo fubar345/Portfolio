@@ -14,3 +14,5 @@ Made mutilple small changes to css and html.
 Continued to learn JavaScript.
 Wrote Anchor points for week 4.
 Collected some links that I used over the course of the month.
+1/29/2016
+Nearly finished javascript course.
