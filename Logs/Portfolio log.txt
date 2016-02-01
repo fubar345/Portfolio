@@ -20,3 +20,6 @@ Nearly finished javascript course.
 1/30/2016
 Worked on linkedin profile.
 Worked on JavaScript.
+
+1/31/2016
+Finished up all remaining assignments for january's classes.
