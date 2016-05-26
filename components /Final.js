@@ -8,7 +8,7 @@ var useranswer = prompt("Hello! Would you like to play?").toLowerCase();
 		return;
 	} else if( useranswer !== "yes" || useranswer !== "no"){
 		console.log("Sorry didn't understand that.");
-		return play();		
+		return;	
 	};
 })();
 
@@ -26,6 +26,7 @@ var useranswer = prompt("Hello! Would you like to play?").toLowerCase();
 		choice1();
 	} else if(userAnswer2 !== "yes" || useranswer !== "no" ){
 		console.log("Sorry didnt understand that.");
+		
 
 	};
 	break labelStopLoop;
@@ -45,7 +46,7 @@ function choice1 () {
 		choice2();
 	}else if (useranswer3 !== "right" || useranswer3 !== "left"){
 		console.log("Sorry didn't understand that.");
-		return;
+		return choice1();
 	};
 
 };
@@ -66,7 +67,7 @@ function choice2 (){
 		};
 	}else if(useranswer4 !== "yes" || useranswer4 !== "no"){
 		console.log("Sorry didn't understand that.");
-		return;
+		return choice2();
 	};
 };
 
