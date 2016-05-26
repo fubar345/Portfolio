@@ -1,4 +1,5 @@
 //asking if the user wants to play
+console.log("------Forest Run-----");
 var useranswer = prompt("Hello! Would you like to play?").toLowerCase();
 (function play () {
 	if(useranswer === "yes"){
@@ -13,6 +14,7 @@ var useranswer = prompt("Hello! Would you like to play?").toLowerCase();
 })();
 
 //creating user name and choosing random name
+  if(useranswer === "yes"){
    labelStopLoop: do {
 	var userAnswer2 = prompt("Would you like to name your character? If you dont want to a random name will be given.").toLowerCase();
 	var charactername = new CharacterName();
@@ -32,7 +34,9 @@ var useranswer = prompt("Hello! Would you like to play?").toLowerCase();
 	break labelStopLoop;
 } 
  while (useranswer == "yes");
-
+} else {
+  console.log("Come back again sometime.");
+}
 
 //User's first choice
 function choice1 () {
